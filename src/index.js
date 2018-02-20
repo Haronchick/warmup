@@ -1,18 +1,7 @@
 module.exports = function warmup(temperature) {
   // your implementation here
-    if (temperature === -20) {
-        return -4;
-    }
+    //Your task is to implement function, which converts Celsius to Fahrenheit. Write your solution in src/index.js
 
-    if (temperature === 0) {
-        return 32;
-    }
+    return (temperature*9/5)+32;
 
-    if (temperature === 15) {
-        return 59;
-    }
-
-    if (temperature === 40) {
-        return 104;
-    }
 };
